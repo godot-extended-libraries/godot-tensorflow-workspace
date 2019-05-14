@@ -2,7 +2,7 @@
 
 <Wikipedia\> TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks. 
 
-This is Tensorflow for Godot Engine. The demo classifies a image into labels. This is a base for more interesting ideas like image upscaling, ai bots, chat bots, animations and others.
+This is Tensorflow for Godot Engine. The demo classifies an image into labels. This is a base for more interesting ideas like image upscaling, ai bots, chat bots, animations and others.
 
 ![Screen](https://github.com/godot-extended-libraries/godot-tensorflow-workspace/blob/master/Screen%20Shot%202019-05-13%20at%209.21.18%20PM.png)
 
