@@ -39,7 +39,7 @@ Execute the binary in `src/thirdparty/godot/bin` and open the project.
 
 ```
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
-cd groups_workspace
+cd godot-tensorflow-workspace
 PATH=$PATH:../depot_tools gclient sync
 ```
 
@@ -48,7 +48,7 @@ PATH=$PATH:../depot_tools gclient sync
 
 ```
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
-cd groups_workspace
+cd godot-tensorflow-workspace
 PATH=$PATH:../depot_tools gclient sync
 ```
 
@@ -59,7 +59,7 @@ For the build system:
 ```
 sudo apt install git-lfs python
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
-cd groups_workspace
+cd godot-tensorflow-workspace
 PATH=$PATH:../depot_tools gclient sync
 ``` 
 
