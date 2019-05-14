@@ -6,6 +6,14 @@ This is Tensorflow for Godot Engine. The demo classifies an image into labels. T
 
 ![Screen](https://github.com/godot-extended-libraries/godot-tensorflow-workspace/blob/master/Screen%20Shot%202019-05-13%20at%209.21.18%20PM.png)
 
+## See also
+
+https://github.com/godot-extended-libraries/godot-tensorflow
+
+https://github.com/godot-extended-libraries/godot-tensorflow-demo
+
+https://github.com/godot-extended-libraries/tensorflow
+
 ## Setup Instructions
 
 * Get depot tools.
