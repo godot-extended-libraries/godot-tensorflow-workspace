@@ -33,7 +33,7 @@ Go to `src/thirdparty/godot` and compile using `scons p=windows tools=yes -j8`.
 
 Use https://docs.godotengine.org/en/3.1/development/compiling/compiling_for_windows.html as reference.
 
-Execute the binary in `src/thirdparty/godot/bin` and open the project at `src/`.
+Execute the binary in `src/thirdparty/godot/bin` and open the project.
 
 ## Linux
 
