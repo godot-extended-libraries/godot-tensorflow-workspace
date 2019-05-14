@@ -27,7 +27,7 @@ Control Panel → User Accounts → User Accounts → Change my environment vari
 
 Add a PATH user variable: C:\workspace\depot_tools;%PATH%.
 
-Go to groups_workspace and run `gclient sync`.
+Go to godot-tensorflow-workspace and run `gclient sync`.
 
 Go to `src/thirdparty/godot` and compile using `scons p=windows tools=yes -j8`.
 
