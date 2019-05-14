@@ -1,5 +1,12 @@
 # Setup Instructions
 
+* Get depot tools.
+* Fetch the client
+* Compile godot
+* Open the example project
+* Run the game
+* See classification of the image
+
 ## Windows
 
 *MUST HAVE PYTHON2*
