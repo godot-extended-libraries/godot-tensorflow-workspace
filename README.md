@@ -55,6 +55,7 @@ Execute the binary in `src/thirdparty/godot/bin` and open the project.
 
 ```
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+git clone https://github.com/godot-extended-libraries/godot-tensorflow-workspace
 cd godot-tensorflow-workspace
 PATH=$PATH:../depot_tools gclient sync
 ```
