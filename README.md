@@ -45,12 +45,6 @@ Add a PATH user variable: C:\workspace\depot_tools;%PATH%.
 
 Go to godot-tensorflow-workspace and run `gclient sync`.
 
-Go to `src/thirdparty/godot` and compile using `scons p=windows tools=yes -j8`.
-
-Use https://docs.godotengine.org/en/3.1/development/compiling/compiling_for_windows.html as reference.
-
-Execute the binary in `src/thirdparty/godot/bin` and open the project.
-
 ## Linux
 
 ```
@@ -58,7 +52,6 @@ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 git clone https://github.com/godot-extended-libraries/godot-tensorflow-workspace
 cd godot-tensorflow-workspace
 PATH=$PATH:../depot_tools gclient sync
-# See windows instructions
 ```
 
 ## OSX
@@ -68,8 +61,15 @@ PATH=$PATH:../depot_tools gclient sync
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 cd godot-tensorflow-workspace
 PATH=$PATH:../depot_tools gclient sync
-# See windows instructions
 ```
+
+## Build godot
+
+Go to `src/thirdparty/godot` and compile using `scons platform=windows tools=yes -j8`. Your platform may be different.
+
+Use https://docs.godotengine.org/en/3.1/development/compiling/compiling_for_windows.html as reference.
+
+Execute the binary in `src/thirdparty/godot/bin` and open the project.
 
 ## Build System
 
