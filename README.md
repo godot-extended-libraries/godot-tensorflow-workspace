@@ -63,7 +63,7 @@ cd godot-tensorflow-workspace
 PATH=$PATH:../depot_tools gclient sync
 ```
 
-## Build godot
+## Build Godot
 
 Go to `src/thirdparty/godot` and compile using `scons platform=windows tools=yes -j8`. Your platform may be different.
 
