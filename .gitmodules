@@ -1,9 +1,6 @@
 [submodule "src/godot"]
 	path = src/godot
 	url = https://github.com/godotengine/godot.git
-[submodule "src/godot/modules/tensorflow"]
-	path = src/godot/modules/tensorflow
-	url = https://github.com/godot-extended-libraries/godot-tensorflow.git
 [submodule "src/godot/thirdparty/tensorflow"]
 	path = src/godot/thirdparty/tensorflow
 	url = https://github.com/godot-extended-libraries/tensorflow.git
