@@ -1,3 +1,6 @@
 [submodule "godot-tensorflow-demo"]
 	path = godot-tensorflow-demo
 	url = https://github.com/godot-extended-libraries/godot-tensorflow-demo.git
+[submodule "src/godot"]
+	path = src/godot
+	url = https://github.com/godot-extended-libraries/godot-tensorflow-godot.git
