@@ -16,15 +16,11 @@ https://github.com/godot-extended-libraries/tensorflow
 
 ## Setup Instructions
 
-* Compile godot
-* Open the example project
-* Run the game
+* clone this repository `git clone https://github.com/godot-extended-libraries/godot-tensorflow-workspace.git --recursive`
+* Go to the source `cd src/godot`.
+* Compile godot using `scons platform=windows tools=yes -j8`. Your platform may be different.
+* Open the example project `./bin/godot.osx.tools.64 --path ../../godot-tensorflow-demo/ -e` 
+* Run the game `./bin/godot.osx.tools.64 --path ../../godot-tensorflow-demo/`
 * See classification of the image
 
-## Build Godot
-
-Go to `src/thirdparty/godot` and compile using `scons platform=windows tools=yes -j8`. Your platform may be different.
-
 Use https://docs.godotengine.org/en/3.1/development/compiling/compiling_for_windows.html as reference.
-
-Execute the binary in `src/thirdparty/godot/bin` and open the project.
